@@ -14,3 +14,5 @@ This is a repository that filled with ideas to break/detect direct syscall techn
   - Implant (to the whole system) a modded-NTDLL where the Syscall ID doesnt correspond with the position of the syscall stub on memory
 - SysWhispers1 / "include your own syscall stub on your program"
   - Use IntrumentationCallback to detects syscalls and check if the return address is outside NTDLL/Win32u
+
+### “Nothing is perfect; nothing is imperfect. Perfection and imperfection reside in your perception.” 
