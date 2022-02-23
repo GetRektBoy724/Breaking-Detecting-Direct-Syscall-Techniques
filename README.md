@@ -12,3 +12,5 @@ This is a repository that filled with my ideas to break/detect direct syscall te
   - Hook every single one of the NT/ZW function (the objective in here is to make Halo's gate cant find ANY Syscall ID)
 - FreshyCalls / SysWhispers2 / "get syscall ID from sorting the syscall stub address"
   - Implant (to the whole system) a modded-NTDLL where the Syscall ID doesnt correspond with the position of the syscall stub on memory
+- SysWhispers1 / "include your own syscall stub on your program"
+  - USe IntrumentationCallback to detects syscalls and check if the return address is outside NTDLL/Win32u
