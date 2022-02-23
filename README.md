@@ -1,4 +1,4 @@
-# Breaking-Monitoring-Direct-Syscall-Techniques
+# Breaking-Detecting-Direct-Syscall-Techniques
 This is a repository that filled with ideas to break/detect direct syscall techniques.
 
 # Ideas
@@ -13,4 +13,4 @@ This is a repository that filled with ideas to break/detect direct syscall techn
 - FreshyCalls / SysWhispers2 / "get syscall ID from sorting the syscall stub address"
   - Implant (to the whole system) a modded-NTDLL where the Syscall ID doesnt correspond with the position of the syscall stub on memory
 - SysWhispers1 / "include your own syscall stub on your program"
-  - USe IntrumentationCallback to detects syscalls and check if the return address is outside NTDLL/Win32u
+  - Use IntrumentationCallback to detects syscalls and check if the return address is outside NTDLL/Win32u
