@@ -1,5 +1,5 @@
 # Breaking-Monitoring-Direct-Syscall-Techniques
-This is a repository that filled with my ideas to break/detect direct syscall technqiues.
+This is a repository that filled with ideas to break/detect direct syscall techniques.
 
 # Ideas
 - Dual-Loading NTDLL from disk 
