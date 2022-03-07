@@ -20,3 +20,9 @@ This is a repository that filled with ideas to break/detect direct syscall techn
   - Detect syscall instruction inside PEs
 
 ### “Nothing is perfect, nothing is imperfect. Perfection and imperfection reside in your perception.” 
+
+# Sources
+- https://www.cyberbit.com/blog/endpoint-security/malware-mitigation-when-direct-system-calls-are-used/
+- https://www.mdsec.co.uk/2020/12/bypassing-user-mode-hooks-and-direct-invocation-of-system-calls-for-red-teams/
+- https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/
+- https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/
