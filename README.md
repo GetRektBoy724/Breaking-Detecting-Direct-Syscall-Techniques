@@ -5,7 +5,7 @@ This is a repository that filled with ideas to break/detect direct syscall techn
   - Can be traced/detected from hooking NtMapViewOfSection.
   - Use IntrumentationCallback to detects syscalls and check if the return address is outside NTDLL.
 - Manual-Mapping NTDLL from disk 
-  - Can be traced/detected from hooking NtReadFile.
+  - Can be traced/detected from hooking NtReadFile or use [NiceTryDLL](https://github.com/GetRektBoy724/NiceTryDLL)
   - Use IntrumentationCallback to detects syscalls and check if the return address is outside NTDLL.
 - Hell's Gate
   - Hook the NT functions.
